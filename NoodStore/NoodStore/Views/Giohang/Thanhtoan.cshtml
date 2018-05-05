@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Thanhtoan";
+    Layout = "~/Views/Shared/_LayoutPay.cshtml";
+}
+<h1 style="font-size:32px;text-align:center">Lựa chọn công ty trung gian</h1>
+<b style="font-size:22px;">Ngân Lượng</b>
+<a target="_blank" href="https://www.nganluong.vn/button_payment.php?receiver=rapsunl231@gmail.com&
+   product_name=@Model.MaDDH &
+   price=@Model.THANHTIEN &
+   return_url=(http://localhost:1456/Giohang/Xacnhandonhang)&
+   comments=Thanh toán trực tuyến">
+    <img src="https://www.nganluong.vn/css/newhome/img/button/safe-buy-2.png" border="0" />
+</a>
+<b style="text-align:center">Bảo Kim</b>
+<a href="https://www.baokim.vn/payment/product/version11?business=nh0csunl_rapper231%40yahoo.com.vn&
+   id=@Model.MaDDH &
+   order_description=thanh+to%C3%A1n+tt&
+   product_name=@Model.MaDDH &
+   product_price=@Model.THANHTIEN &
+   product_quantity=1&
+   total_amount=@Model.THANHTIEN &
+   url_cancel=&
+   url_detail=&
+   url_success="">
+    <img src="https://www.nganluong.vn/css/newhome/img/button/safe-buy-2.png" border="0" />
+</a>
+    @*<img src="~/Hinhsanpham/Capture.PNG" alt="Thanh toán an toàn với Bảo Kim !" border="0" title="Thanh toán trực tuyến an toàn dùng tài khoản Ngân hàng (VietcomBank, TechcomBank, Đông Á, VietinBank, Quân Đội, VIB, SHB,... và thẻ Quốc tế (Visa, Master Card...) qua Cổng thanh toán trực tuyến BảoKim.vn" ></a>*@

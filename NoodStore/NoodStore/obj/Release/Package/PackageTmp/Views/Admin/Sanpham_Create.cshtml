@@ -1,0 +1,146 @@
+﻿@model NoodStore.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Sanpham_Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>THÊM MỚI SẢN PHẨM</h2>
+
+@using (Html.BeginForm("Sanpham_Create", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>SẢN PHẨM</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+              <strong>Tên Sản Phẩm</strong> 
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TenSP)
+                @Html.ValidationMessageFor(model => model.TenSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Mô Tả Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                <textarea name="Mota">Mô tả sản phẩm</textarea>
+                <script>CKEDITOR.replace('Mota');</script>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Bảo Hành Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                <input type="number" name="BaoHanh" value="6" min="1" max="60"/>tháng
+                @Html.ValidationMessageFor(model => model.BaoHanh)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Ảnh Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                <input type="file" name="fileupload" />
+                @ViewBag.Thongbao
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Giá Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                <input type="number" name="GiaSP"  value="1000" min="1" />
+                @Html.ValidationMessageFor(model => model.GiaSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Ngày Nhập SP</strong>
+            </div>
+            <div class="col-md-10">
+                <input type="datetime" name="NgayNhapSP" value="@DateTime.Now.ToShortDateString()" />
+                @Html.ValidationMessageFor(model => model.NgayNhapSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Số Lượng Tồn</strong>
+            </div>
+            <div class="col-md-10">
+                <input type="number" name="Soluongton" placeholder="1" value="1" min="1"/>
+                @Html.ValidationMessageFor(model => model.Soluongton)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Nhà Sản Xuất</strong>
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownList("MaNSX")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Loại Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownList("MaLSP")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Kiểu Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                @Html.DropDownList("MaKieu")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Màu Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MauSP)
+                @Html.ValidationMessageFor(model => model.MauSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="control-label col-md-2">
+                <strong>Tình Trạng Sản Phẩm</strong>
+            </div>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Tinhtrang)
+                @Html.ValidationMessageFor(model => model.Tinhtrang)
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="THÊM MỚI" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

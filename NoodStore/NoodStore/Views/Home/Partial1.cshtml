@@ -1,0 +1,32 @@
+﻿@using NoodStore.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<SANPHAM>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+<div style="height:375px">
+    @foreach (var sanpham in Model)
+    {
+        <div class="product">
+            <img class="productImg" src="~/images/gearvn-ducky-one-s-horizon-1.jpg" width="220" />
+            <h3 class="productName" style="height:40px">@sanpham.TenSP</h3>
+            <p class="productPrice">@sanpham.GiaSP</p>
+            <a class="productDetail" href="@Url.Action("Details", "Home", new { id = sanpham.MaSP })">Chi tiết</a>
+            <a class="productBigImg" href="#">Thêm vào giỏ</a>
+        </div>
+    }
+</div>
+<div class="MenuPage">
+    Trang@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+    @Html.PagedListPager(Model, Page => Url.Action("Index", new { page = Page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+        padding-left: 25px;
+    }
+</style>
+
+
+

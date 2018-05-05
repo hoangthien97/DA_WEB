@@ -1,0 +1,13 @@
+﻿@model IEnumerable<NoodStore.Models.SANPHAM>
+@foreach (var sanpham in Model)
+{
+    <div class="product">
+        <img class="productImg" src="~/Hinhsanpham/@sanpham.AnhSP" width="220" height="220" /><br />
+        <h3 class="productName" style="height:40px">@sanpham.TenSP</h3>
+        
+        <a class="productDetail" href="@Url.Action("Details", "Home", new { id = sanpham.MaSP })">Chi tiết</a>
+        <a class="productBigImg" href="@Url.Action("ThemGiohang", "Giohang", new { @sMaSP = @sanpham.MaSP, @strURL = Request.Url.ToString() })">Thêm vào giỏ</a>
+    </div>
+}
+
+

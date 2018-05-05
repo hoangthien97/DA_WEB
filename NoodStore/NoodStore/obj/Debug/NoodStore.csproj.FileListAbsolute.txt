@@ -1,0 +1,118 @@
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\NoodStore.dll.config
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\NoodStore.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\NoodStore.pdb
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Antlr3.Runtime.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\EntityFramework.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\EntityFramework.SqlServer.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Newtonsoft.Json.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Owin.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\PagedList.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\PagedList.Mvc.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Helpers.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Mvc.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Optimization.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Razor.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.WebPages.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\WebGrease.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\PagedList.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\PagedList.Mvc.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Helpers.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Mvc.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Optimization.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.Razor.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.WebPages.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Newtonsoft.Json.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Antlr3.Runtime.pdb
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\EntityFramework.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\EntityFramework.SqlServer.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\obj\Debug\NoodStore.dll
+C:\Users\HAN\Desktop\L_T_Web\NoodStore\NoodStore\obj\Debug\NoodStore.pdb
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\NoodStore.dll.config
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\NoodStore.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\NoodStore.pdb
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Antlr3.Runtime.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\EntityFramework.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\EntityFramework.SqlServer.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Newtonsoft.Json.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Owin.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\PagedList.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\PagedList.Mvc.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Helpers.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Mvc.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Optimization.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Razor.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.WebPages.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\WebGrease.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\PagedList.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\PagedList.Mvc.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Helpers.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Mvc.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Optimization.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.Razor.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.WebPages.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Newtonsoft.Json.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Antlr3.Runtime.pdb
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\EntityFramework.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\EntityFramework.SqlServer.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\obj\Debug\NoodStore.csprojResolveAssemblyReference.cache
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\obj\Debug\NoodStore.csproj.CoreCompileInputs.cache
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\obj\Debug\NoodStore.dll
+C:\Users\thien\Desktop\proj gearvn 0105\DA_WEB\NoodStore\NoodStore\obj\Debug\NoodStore.pdb

@@ -1,0 +1,120 @@
+﻿@model NoodStore.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN SẢN PHẨM CẦN XÓA</h2>
+
+<h3>Bạn quyết định xóa sản phẩm này?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <strong>Tên Sản Phẩm:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+
+        <dt>
+            <strong>Mô Tả Sản Phẩm:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MotaSP)
+        </dd>
+
+        <dt>
+            <strong>Bảo Hành</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BaoHanh)
+        </dd>
+
+        <dt>
+            <strong>Ảnh Sản Phẩm</strong>
+        </dt>
+
+        <dd>
+           <img src="@Url.Content("~/Hinhsanpham/" + @Html.DisplayFor(model => model.AnhSP))" height="100px" width="100px" />
+        </dd>
+
+        <dt>
+            <strong>Giá Bán:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaSP)
+        </dd>
+
+        <dt>
+            <strong>Ngày Cập Nhật</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayNhapSP)
+        </dd>
+
+        <dt>
+            <strong>Số Lượng Tồn</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+            <strong>Nhà Sản Xuất</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaNSX)
+        </dd>
+
+        <dt>
+            <strong>Loại Sản Phẩm</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaLSP)
+        </dd>
+
+        <dt>
+            <strong>Kiểu Sản Phẩm</strong> 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaKieu)
+        </dd>
+
+        <dt>
+            <strong>Màu Sản Phẩm</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MauSP)
+        </dd>
+
+        <dt>
+            <strong>Tình Trạng Sản Phẩm</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tinhtrang)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

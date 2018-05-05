@@ -1,0 +1,83 @@
+﻿@model NoodStore.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutStandar.cshtml";
+}
+    <section id="slider" style="padding-top:10px">
+        <img src="~/Hinhsanpham/@Html.DisplayFor(model => model.AnhSP)" style="padding-left: 50px; height: 470px; width: 90%; padding-top: 13px">
+    </section>
+    <div id="right-head">
+        <div class="info-product">
+            <b style="font-size: 27px;text-align:center; font-weight: bolder">@Model.TenSP</b>
+            <br />
+            <br />
+            <span style="font-size: 30px;text-align: center; ">Thông tin chung</span>
+            <dl class="dl-horizontal" style="font-size:22px;text-align:left;">
+
+                <dt style="text-align: left; font-weight: bold">
+                    <b>Bảo Hành:</b>
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.BaoHanh)
+                </dd>
+
+                <dt style="text-align: left; font-weight: bold">
+                    <b>Nhà sãn xuất:</b>
+                </dt>
+
+                <dd>
+                    @Model.NHASANXUAT.TenNSX
+                </dd>
+                <dt style="text-align: left; font-weight: bold">
+                    <b>Tình trạng:</b>
+                </dt>
+
+                <dd>
+
+                    @Html.DisplayFor(model => model.Tinhtrang)
+                    <br />
+                    <br />
+                    <br />
+                </dd>
+
+                <dt style="text-align: left; font-weight: bold">
+                    <br />
+                    <b>Giá:</b>
+
+                </dt>
+
+                <dd>
+                    <span style="font-size:48px;color:red;margin-bottom:25px;margin-right:55px">
+                        @Html.DisplayFor(model => model.GiaSP)<b>đ</b>
+                    </span>
+                </dd>
+            </dl>
+            <a href="@Url.Action("ThemGiohang", "Giohang", new { @sMaSP = @Model.MaSP, @strURL = Request.Url.ToString() })" ><button style=" font-weight:bold;font-size:26px;background-color:red;width:180px;height:60px;color:white;margin-top:15px;margin-left:65px;border-radius:10px">ĐẶT HÀNG</button></a>
+        </div>
+    </div>
+    <div class="tab-container">
+        <section class="tabs">
+            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+            <label for="tab-1" class="tab-label-1">Mô Tả sản phẩm</label>
+         
+            <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+            <label for="tab-2" class="tab-label-2">Đặc điểm nổi bật</label>
+
+            <div class="clear-shadow"></div>
+            <div class="contentsp">
+                <div class="contentsp-1">
+                    <span style="word-wrap: break-word"><p>@Html.DisplayFor(model => model.MotaSP)</p></span>
+                </div>
+                <div class="contentsp-2">
+                    <p>@Html.DisplayFor(model => model.MotaSP)</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div>
+        <p style="width:120px">
+            @Html.ActionLink("Back to List", "Index")
+        </p>
+    </div>

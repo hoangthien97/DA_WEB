@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>NoobStore - Shop Gaming Gear</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/font-awesome.min.css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Content/price-range.css" rel="stylesheet">
+    <link href="~/Content/animate.css" rel="stylesheet">
+    <link href="~/Content/responsive.css" rel="stylesheet">
+    <script src="~/Scripts/jquery.js"></script>
+    <scripx`t src="~/Scripts/bootstrap.min.js"></scripx`t>
+    <script src="~/Scripts/jquery.scrollUp.min.js"></script>
+    <script src="~/Scripts/price-range.js"></script>
+    <script src="~/Scripts/jquery.prettyPhoto.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    <link href="~/Content/set.css" rel="stylesheet" />
+    <link href="~/Content/size.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="maincontainer">
+        <div class="header">
+            <div class="header_top">
+                <!--header_top-->
+                <div id="container_headertop">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="contactinfo">
+                                <ul class="nav nav-pills">
+                                    <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-phone"></i> +84 1239220900</a></li>
+                                    <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-envelope"></i> kinhdoanh@noobstore.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="social-icons pull-right">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/header_top-->
+
+            <div class="header-bottom">
+                <!--header-bottom-->
+                <div id="container">
+                    <div id="leftbanner">
+                        <div id="logo">
+                            <b>
+                                <a href="@Url.Action("Index", "Home")">
+                                    <img alt="Trang Chủ" src="~/images/logo.png" height="180px" width="100%">
+                                </a>
+                            </b>
+                        </div>
+                        <div id="middlebanner">
+                            <a href="@Url.Action("Index", "Home")"><img src="~/images/middlebanner2.jpg" height="180px" width="100%" /></a>
+                        </div>
+                    </div>
+                    <div id="rightbanner">
+                        <div class="rightbn1qc">
+                            <span style="text-align:center"><img alt="GIAO HÀNG toàn quốc" src="~/images/giaohang.png"></span>
+                            <span>GIAO HÀNG TOÀN QUỐC</span>
+                        </div>
+                        <div class="rightbn2qc">
+                            <img alt="HỖ TRỢ trao đổi" src="~/images/trahang.png">
+                            <span>HỖ TRỢ TRAO ĐỔI</span>
+                        </div>
+                    </div>
+                    <div id="search">
+                        <form class="searchform" action="" method="get">
+                            <input class="s" onfocus="if (this.value == 'Nhập mã hoặc Tên sản phẩm') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Nhập mã hoặc Tên sản phẩm...';}" type="text" name="s" placeholder="Nhập mã hoặc Tên sản phẩm..." />
+                            <input class="searchsubmit" type="submit" value="Search" />
+                        </form>
+                    </div>
+                    <div id="menulogin">
+                        <div class="accreg">
+                            <a href="@Url.Action("Dangky", "Users")">
+                                <img alt="Đăng ký" src="~/images/icon-register.png">
+                                Đăng Ký
+                            </a>
+                        </div>
+                        <div class="acclogin">
+                            <a href="@Url.Action("Dangnhap", "Users")">
+                                <img alt="Đăng Nhập" src="~/images/icon-login.png">
+                                Đăng Nhập
+                            </a>
+                        </div>
+                        <div class="contact">
+                            <a href="/contact">
+                                <img alt="Liên Hệ" src="~/images/icon-contact.png">
+                                Liên Hệ
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!--/header-bottom-->
+        </div>
+        <div class="content">
+            <div id="head" style="height:auto">
+                <div class="clearfix">
+                    <ul id="menutop">
+                        <li><a href="@Url.Action("Index", "Home")">Trang Chủ</a></li>
+                        <li>
+                            <a href="#">PC Build</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Pro</a></li>
+                                <li><a href="">Extreme</a></li>
+                                <li><a href="">Gaming</a></li>
+                                <li><a href="">Multimedia</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Bàn Phím</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Razer</a></li>
+                                <li><a href="">Logitech</a></li>
+                                <li><a href="">Leopold</a></li>
+                                <li><a href="">Corsair</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Chuột</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Razer</a></li>
+                                <li><a href="">Logitech</a></li>
+                                <li><a href="">SteelSeries</a></li>
+                                <li><a href="">Corsair</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Tai Nghe</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Razer</a></li>
+                                <li><a href="">Logitech</a></li>
+                                <li><a href="">SteelSeries</a></li>
+                                <li><a href="">Corsair</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Lót Chuột</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Razer</a></li>
+                                <li><a href="">Logitech</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Ghế</a>
+                            <ul class="sub_menu">
+                                <li><a href="">DXRacer</a></li>
+                                <li><a href="">AKRacing</a></li>
+                                <li><a href="">Phụ kiện DXRacer</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Phụ Kiện</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">Loa</a></li>
+                                <li><a href="#">WebCam</a></li>
+                                <li><a href="#">GamePad</a></li>
+                                <li><a href="#">Balo , Cặp , Túi game thủ</a></li>
+                                <li><a href="#">Bungee</a></li>
+                                <li><a href="#">Keycap</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Liên Hệ</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">Chính sách vận chuyển</a></li>
+                                <li><a href="#">Đặt hàng & thanh toán</a></li>
+                                <li><a href="#">Chính sách bảo hành</a></li>
+                            </ul>
+                        </li>
+                        <li>@Html.Action("GiohangPartial", "Giohang")</li>
+                    </ul>
+                </div>
+            </div>
+            <div>@RenderBody()</div>
+            
+            <div class="clear"></div>
+        </div><!--Het Content-->
+     </div>
+        <div id="contact">
+            <form class="contact-form" action="" method="get">
+                <input class="s" onfocus="if (this.value == 'Nhập email của bạn') {this.value = '';}" onblur="if (this.value == '') {this.value = '';}" type="text" name="s" placeholder="Nhập email của bạn..." />
+                <input class="addsubmit" type="submit" value="Đăng Ký" />
+            </form>
+            <h1>Mua hàng online với nhiều ưu đãi hơn tại NOOBSTORE</h1>
+        </div>
+
+    <div id="footer">
+        <div class="ft-map">
+            <h1>Bản đồ đến NoobStore</h1>
+            <div style="width: 100%; height: 268px;">
+                <p style="font-size: 20px">THỜI GIAN LÀM VIỆC: 9:00 - 21:00 TỪ THỨ 2 ĐẾN CHỦ NHẬT</p>
+                <p> Bản quyền thuộc về : <span style="font-size:25px">NOOBSTORE </span></p>
+                <p> Mẫu website được thiết kế và phát triển bởi<b><a href="http://www.fb.com/SynzSy"> <span style="font-size:20px">NoobTeam </span></a></b></p>
+            </div>
+        </div>
+        <div class="ft-info">
+            <h1 class="NameCH">NOOBSTORE - SHOP GAMING GEAR HCM  </h1>
+            <p><span style="color:green"><span style="font-size:20px">Địa chỉ: 392/2 Ung Văn Khiêm, Phường 25, Quận Bình Thạnh, Tp.HCM</span></span></p>
+            <p>Điện thoại: 01239220900 - Bảo hành: 01883517473</p>
+            <p>Email: kinhdoanh@noobstore.com</p>
+            <p><span style="color: blue; font-size: 20px">Hotline: 01239220900</span></p>
+        </div>
+        <div class="ft-pay">
+            <h1>Chấp nhận thanh toán</h1>
+            <img src="~/images/payment_imagedesktop.png" width="100%" height="50px">
+        </div>
+        <!--<div clas="ft-fanpage">
+            <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="281" data-height="420" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+        </div>-->
+    </div><!--Footer-->
+    <!-- cho việc làm SEO -->
+    <div id="keywork">
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+﻿@model NoodStore.Models.SANPHAM
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+<div>
+    <h4>SẢN PHẨM</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <strong>Tên Sản Phẩm:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+
+        <dt>
+            <strong>Giá Bán:</strong>
+        </dt>
+
+        <dd>
+            @String.Format("{0:0,0}", Model.GiaSP) VNĐ
+        </dd>
+
+        <dt>
+            <strong>Mô Tả Sản Phẩm:</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MotaSP)
+        </dd>
+
+        <dt>
+            <strong>Ảnh Sản Phẩm</strong>
+        </dt>
+
+        <dd>
+            <img src="@Url.Content("~/Hinhsanpham/" + @Html.DisplayFor(model => model.AnhSP))" height="100px" width="100px" />
+        </dd>"
+
+        <dt>
+            <strong>Ngày Cập Nhật</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayNhapSP)
+        </dd>
+
+        <dt>
+            <strong>Số Lượng Tồn</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+            <strong>Loại Sản Phẩm</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaLSP)
+        </dd>
+
+        <dt>
+            <strong>Nhà Sản Xuất</strong>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaNSX)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaSP }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

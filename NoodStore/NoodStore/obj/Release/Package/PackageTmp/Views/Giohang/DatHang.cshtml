@@ -1,0 +1,117 @@
+﻿@using NoodStore.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "ĐƠN ĐẶT HÀNG";
+    Layout = "~/Views/Shared/_LayoutPay.cshtml";
+}
+@{
+    KHACHHANG kh = (KHACHHANG)Session["Taikhoan"];
+}
+<table align="center">
+    @using (Html.BeginForm())
+{
+        <div class="register-left">
+            <h2><span style="text-transform: uppercase">Thông Tin Giao Hàng</span></h2>
+            <div class="lo-ris">
+            </div>
+            <div class="info-register-form">
+                <form>
+                    <span style="font-size:18px "><input placeholder="Họ khách hàng:" type="text" required="" value="@kh.Ho"></span>
+                    <br>
+                    <span style="font-size:18px "><input placeholder="Tên khách hàng:" type="text" required="" value="@kh.Ten"></span>
+                    <br>
+                    <span style="font-size:18px "><input placeholder="Số điện thoại:" type="text" required="" value="@kh.DienthoaiKH"></span>
+                    <br>
+                    <span style="font-size:18px "><input placeholder="Email:" type="text" required="" value="@kh.Email"></span>
+                    <br>
+                    <span style="font-size:18px "><input placeholder="Địa chỉ:" type="text" required="" value="@kh.DiachiKH"></span>
+                    <br>
+                    <span style="font-size:18px "><input placeholder="Tên Tài Khoản:" type="text" required="" value="@kh.Taikhoan"></span>
+                    <br>
+                   
+                    <span style="font-size:18px "><input placeholder="Ngày giao hàng:" type="date" name="Ngaygiao" required=""></span>
+                    <br>
+                    <span style="font-size: 18px"> Vui lòng chọn tỉnh thành phố :</span>
+                    <br>
+                    <select name=mytextarea type="abc">
+                        <option name=one value=one> TP Hồ Chí Minh </option>
+                        <option name=two value=two> Hà Nội </option>
+                        <option name=three value=three> Khác </option>
+                    </select>
+                    <br>
+                    <br>
+                    <input style="height: 120px; text-align: top;" placeholder="Ghi chú đơn hàng" type="text" required="">
+                    <br>
+                    <input class="btthanhtoan" type="Submit" value="ĐỒNG Ý ĐẶT HÀNG" />
+                    <!--  <button><input type="Submit" value="Send" name="Submit" class="button" onclick="alert('Cảm ơn bạn đã đăng kí tài khoản mạng xã hội của Chung cư , yêu cầu của bạn sẽ sớm được phản hồi , bạn có thể ấn vào Kiểm tra tài khoản để biết thêm chi tiết')"></button> -->
+                </form>
+            </div>
+        </div> <!-- hết left -->
+        <div style="width:680px" class="Pay-center">
+            <h1>Thanh Toán</h1>
+            <div class="button-pay">
+                <form>
+                    <span style="font-size: 22px"><input type="radio" name="hpay" value="COD" checked> Thanh toán khi giao hàng(COD)</span><br>
+                    <p>&nbsp&nbsp&nbsp&nbsp   Là phương thức khách hàng nhận hàng mới trả tiền. Áp dụng với tất cả các đơn hàng trên toàn quốc</p>
+                    <span style="font-size: 22px"><input type="radio" name="hpay" value="CK"> Thanh toán trực tuyến</span><br>
+                    <p>&nbsp&nbsp&nbsp&nbsp Thanh toán bằng thẻ ngân hàng  nội địa & Thẻ Visa & Paypal ....</p>
+                </form>
+            </div>
+        </div>
+        <div class="info-right">
+                <table align="center" style="border:1px solid">
+                    <tr style="text-align:center; font-weight:bold;border:1px solid">
+                        <td style="width:auto;height:auto;margin:0 5px 0 5px"> Tên sản phẩm </td>
+                        <td style="border:1px solid"> Số lượng </td>
+                        <td width="120px" style="border:1px solid"> Đơn giá </td>
+                        <td width="120px" style="border:1px solid"> Thành tiền </td>
+                    </tr>
+                    @foreach (var item in Model)
+            {
+                        <tr style="text-align:center; font-weight:bold;width:auto;height:auto;border:1px solid">
+                            <td style="border:1px solid"><p>@item.sTenSP</p></td>
+                            @using (Html.BeginForm("CapnhatGiohang", "Giohang", new { @sMasp = item.sMaSP }))
+                    {
+                                <td style="border:1px solid">
+                                    <input type="number" min="1" name="txtSL" value="@item.iSoluong" style="background-color:yellow" />
+                                </td>
+
+                                <td style="border:1px solid">@String.Format("{0:0,0}", @item.dGiaSP) <b>đ</b></td>
+                                <td style="border:1px solid">@String.Format("{0:0,0}", @item.dThanhtien)<b>đ</b></td>
+                    }
+                        </tr>
+            }
+                    <tr style="font-weight: bold; text-align:right; color:red">
+                        <td colspan="3"> Số lượng sản phẩm: @ViewBag.Tongsoluong </td>
+                        <td colspan="3"> Tổng tiền: @String.Format("{0:0,0}", ViewBag.Tongtien) VNĐ </td>
+                    </tr>
+                    <tr style="font-weight: bold; color:blue; text-align:right ">
+                        <td colspan="6">
+                            @Html.ActionLink("TRỞ VỀ GIỎ HÀNG", "Giohang", "GioHang")
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tamtinh">
+                <h3><b>Tạm tính</b></h3>
+                <span style="float: right;">@ViewBag.Tongtien<b>đ</b></span>
+            </div>
+            <div class="phivanchuyen">
+                <h3>Phí vận chuyển</h3>
+                <span style="float: right;"><!-- đẩy giá từ sql vào đây -->0&nbsp<b>đ</b></span>
+            </div>
+            <div class="makm">
+                <h3>Sử dụng mã khuyến mãi</h3>
+                <span style="font-size:14px "><input placeholder="Nhập mã khuyến mãi" type="text" required=""></span>
+                <button class="btmakm" type="Submit" value="Submit" name="Submit"><b>SỬ DỤNG</b></button>
+            </div>
+            <div class="thanhtoan">
+                <h3>Tổng cộng</h3>
+                <span style="float: right;">@ViewBag.Tongtien<b>đ</b></span>
+            </div>
+       
+        @*<input class="btthanhtoan" type="Submit" value="Submit" name="Submit"><b>ĐẶT HÀNG</b></input>*@
+        @*onclick="alert('Cảm ơn bạn đã đặt hàng, yêu cầu của bạn sẽ sớm được phản hồi , bên vận chuyển sẽ sớm liên hệ với bạn . Chân thành cảm ơn bạn đã mua hàng ở NoobStore')*@
+    }
+</table>
